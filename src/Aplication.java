@@ -18,7 +18,6 @@ public class Aplication {
 		for (Integer i : data) {
 			System.out.print(i+" ");
 		}
-		
 	}
 	
 	// перемещает нулевое значение из последнего элемента в первый
@@ -36,7 +35,6 @@ public class Aplication {
             array[i] = null;
             }
             return array;
-
 	}
 	//перемещает нулевое значение с первого элемента на последний
 	public static Integer[] lastNull(Integer[] array){
